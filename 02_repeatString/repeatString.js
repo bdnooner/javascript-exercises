@@ -6,7 +6,7 @@ const repeatString = function(string, numOfTimes) {
     return_string = "";
 
     for(let i = 0; i < numOfTimes; i++){
-        return_string += `${string}`;
+        return_string += string;
     }
 
     return return_string;
